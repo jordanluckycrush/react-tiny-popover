@@ -19,8 +19,8 @@
   ],
   "license": "MIT",
   "author": "Alex Katz",
-  "main": "dist/Popover.js",
-  "types": "dist/index.d.ts",
+  "main": "src/Popover.ts",
+  "types": "src/index.d.ts",
   "scripts": {
     "build": "tsc -p . && yarn copy-types",
     "clean": "rm -rf dist/",
